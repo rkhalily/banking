@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_lyfycC9oEeW4uKGsEqbLNg" name="model">
+  <packagedElement xmi:type="uml:Package" xmi:id="_iEnl8C99EeW4uKGsEqbLNg" name="Accounting">
+    <packagedElement xmi:type="uml:Class" xmi:id="_8CmTQC9vEeW4uKGsEqbLNg" name="Transaction"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_5j5U0C9yEeW4uKGsEqbLNg" memberEnd="_5j5U0S9yEeW4uKGsEqbLNg _5jnA8C9yEeW4uKGsEqbLNg">
+      <name xsi:nil="true"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_5j5U0S9yEeW4uKGsEqbLNg" name="accountTransaction" type="_2_T_kC9vEeW4uKGsEqbLNg" association="_5j5U0C9yEeW4uKGsEqbLNg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5j5U0i9yEeW4uKGsEqbLNg" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5j5U0y9yEeW4uKGsEqbLNg" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1IDjAC9vEeW4uKGsEqbLNg" name="Account">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_RNF7EC9wEeW4uKGsEqbLNg" name="debitBalance">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_gdmQsC9wEeW4uKGsEqbLNg" name="creditBalance">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ArCBgC9xEeW4uKGsEqbLNg" name="id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_GpSIoC9xEeW4uKGsEqbLNg" name="serial">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_4Rg8YC9xEeW4uKGsEqbLNg" name="hserial">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedAttribute>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_2_T_kC9vEeW4uKGsEqbLNg" name="AccountTransaction">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Cw3QIC9yEeW4uKGsEqbLNg" name="debit">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Iil-MC9yEeW4uKGsEqbLNg" name="credit">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ZiYgIC9yEeW4uKGsEqbLNg" name="id">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_hVlWsC9yEeW4uKGsEqbLNg" name="effectiveDate">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_oO5X4C9yEeW4uKGsEqbLNg" name="issueDate">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_5jnA8C9yEeW4uKGsEqbLNg" name="transaction" type="_8CmTQC9vEeW4uKGsEqbLNg" association="_5j5U0C9yEeW4uKGsEqbLNg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5jnA8S9yEeW4uKGsEqbLNg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5jnA8i9yEeW4uKGsEqbLNg" value="1"/>
+        </ownedAttribute>
+      </nestedClassifier>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
