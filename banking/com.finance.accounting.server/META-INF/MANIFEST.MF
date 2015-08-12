@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: AccountingModel
+Bundle-SymbolicName: com.finance.accounting.server
+Bundle-Version: 1.0.0.qualifier
+Export-Package: com.finance.accounting.server.model
+Import-Package: javax.persistence;version="2.1.0"
+Require-Bundle: com.finance.accounting.spi,
+ org.eclipse.persistence.jpa;bundle-version="2.6.0",
+ org.eclipse.persistence.jpa.jpql;bundle-version="2.6.0"
