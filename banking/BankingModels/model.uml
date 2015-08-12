@@ -48,4 +48,24 @@
       </nestedClassifier>
     </packagedElement>
   </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_mvja0D9yEeW999xp9DXLpg" name="TransactionBuilder">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_sjl2AD9yEeW999xp9DXLpg" name="transaction" type="_8CmTQC9vEeW4uKGsEqbLNg" association="_sjpgYD9yEeW999xp9DXLpg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sjl2AT9yEeW999xp9DXLpg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sjl2Aj9yEeW999xp9DXLpg" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_5aczsD9yEeW999xp9DXLpg" name="build">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_-xa3YD99EeW999xp9DXLpg" name="Parameter1" type="_8CmTQC9vEeW4uKGsEqbLNg" direction="return">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_V0w3MD9-EeW999xp9DXLpg" value=""/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_sjpgYD9yEeW999xp9DXLpg" memberEnd="_sjpgYT9yEeW999xp9DXLpg _sjl2AD9yEeW999xp9DXLpg">
+    <name xsi:nil="true"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sjpgYT9yEeW999xp9DXLpg" name="transactionBuilder" type="_mvja0D9yEeW999xp9DXLpg" association="_sjpgYD9yEeW999xp9DXLpg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sjpgYj9yEeW999xp9DXLpg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sjpgYz9yEeW999xp9DXLpg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_zHmCoD9_EeW999xp9DXLpg" name="AccountingService"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Piq8ID-AEeW999xp9DXLpg" name="AccountingService"/>
 </uml:Model>
